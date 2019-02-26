@@ -8,8 +8,9 @@
 'use strict';
 
 
+// root instance
 var  vm = new Vue({
-   el: '#vue_det',
+   el: '#vue_det', // connect with html
    data: {
       firstname : "Ria",
       lastname  : "Singh",
